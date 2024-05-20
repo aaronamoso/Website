@@ -1,21 +1,48 @@
+/* Navigation Bar */
 .nav {
-    background-color: rgb(180, 255, 255);
+    background-color: rgb(194, 180, 228);
+    text-align: center;
 }
+/* Welcome Page */
+/* .welcome {
+    background-color: rgb(155, 238, 238);
+} */
+/* Intro */
 .intro {
     background-color: rgb(255, 210, 210);
 }
+.intro > h3 {
+    text-align: center;
+    font-size: 50px;
+}
+.intro > p {
+    text-align: center;
+}
+/* Education */
+.education {
+    background-color: rgb(181, 225, 225);
+}
+/* About */
 .about {
     background-color: rgb(218, 218, 251);
 }
-.contact {
-    background-color: rgb(255, 255, 198);
-}
-.experience {
-    background-color: rgb(251, 209, 209);
-}
+/* Projects */
 .projects {
     background-color: rgb(235, 246, 157);
 }
-.education {
-    background-color: rgb(181, 225, 225);
+/* Experience */
+.experience {
+    background-color: rgb(251, 209, 209);
+}
+/* Contact */
+.contact {
+    background-color: rgb(255, 255, 198);
+}
+
+
+body {
+    /* background-image: url(images/galaxy.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    /* color: white; */
 }
